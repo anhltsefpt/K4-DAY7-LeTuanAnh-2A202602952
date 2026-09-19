@@ -1,7 +1,6 @@
 url,doc_id,title,audience,department,category,language,document_version,license_or_permission
-https://example.edu/quy-dinh/dang-ky-hoc-phan,course-registration-deadline,Quy định đăng ký học phần,student,academic-affairs,registration,vi,not-stated,public-source
-https://ts.hust.edu.vn/tin-tuc/chi-tiet-55-chuong-trinh-dao-tao-tai-bach-khoa-ha-noi-nhan-hoc-bong-chinh-phu-theo-nghi-dinh-179,nghi-dinh-55-nhan-hoc-bong,Chi tiết 55 Chương trình đào tạo tại Bách khoa Hà Nội nhận Học bổng Chính phủ theo Nghị định 179,student,academic-affairs,scholarship,vi,not-stated,public-source
-https://ts.hust.edu.vn/tin-tuc/ho-tro-tai-chinh-cho-sinh-vien,ho-tro-tai-chinh-tan-sinh-vien,Hỗ trợ tài chính cho sinh viên,student,academic-affairs,hỗ trợ tài chính,vi,not-stated,public-source
-https://ts.hust.edu.vn/tin-tuc/hoc-phi-dai-hoc-2022,hoc-phi-dai-hoc-2022,Học phí Đại học 2022,student,academic-affairs,học phí,vi,not-stated,public-source
-https://ts.hust.edu.vn/tin-tuc/mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt,mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt,Mở đăng ký học bổng hỗ trợ học tập cho học sinh năm cuối THPT,student,academic-affairs,hỗ trợ tài chính,vi,not-stated,public-source
-https://ts.hust.edu.vn/tin-tuc/tieu-chi-xet-hoc-bong-ho-tro-hoc-tap,tieu-chi-xet-hoc-bong-ho-tro-hoc-tap,Tiêu chí xét học bổng hỗ trợ học tập,student,student-affairs,scholarship,vi,not-stated,public-source
+https://ts.hust.edu.vn/tin-tuc/ho-tro-tai-chinh-cho-sinh-vien,ho-tro-tai-chinh-tan-sinh-vien,Hỗ trợ tài chính cho sinh viên,student,academic-affairs,financial-aid,vi,2025-02-28,public-source
+https://ts.hust.edu.vn/tin-tuc/hoc-phi-dai-hoc-2022,hoc-phi-dai-hoc-2022,Học phí Đại học 2022,student,academic-affairs,tuition,vi,2022-06-29,public-source
+https://ts.hust.edu.vn/tin-tuc/mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt,mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt,Mở đăng ký học bổng hỗ trợ học tập cho học sinh năm cuối THPT,applicant,student-affairs,scholarship,vi,2020-09-22,public-source
+https://ts.hust.edu.vn/tin-tuc/chi-tiet-55-chuong-trinh-dao-tao-tai-bach-khoa-ha-noi-nhan-hoc-bong-chinh-phu-theo-nghi-dinh-179,nghi-dinh-55-nhan-hoc-bong,Chi tiết 55 Chương trình đào tạo tại Bách khoa Hà Nội nhận Học bổng Chính phủ theo Nghị định 179,student,academic-affairs,scholarship,vi,2026-07-01,public-source
+https://ts.hust.edu.vn/tin-tuc/tieu-chi-xet-hoc-bong-ho-tro-hoc-tap,tieu-chi-xet-hoc-bong-ho-tro-hoc-tap,Tiêu chí xét học bổng hỗ trợ học tập,student,student-affairs,scholarship,vi,2019-09-25,public-source
