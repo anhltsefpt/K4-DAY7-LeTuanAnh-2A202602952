@@ -1,0 +1,96 @@
+=== bench.py — CHECKPOINT 5 ===
+Chunker      : HeadingChunker
+Embedder     : sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Số file      : 5
+Số chunk nạp : 43
+
+──────────────────────────────────────────────────────────────────────────────
+Q1 (tra số liệu)
+  Q: Học phí chương trình Khoa học dữ liệu và Trí tuệ nhân tạo (IT-E10) khoảng bao nhiêu một năm?
+  gold doc_id: hoc-phi-dai-hoc-2022
+
+  filter=(không lọc)
+    1. score=+0.717 ✔ gold doc_id=hoc-phi-dai-hoc-2022  id=hoc-phi-dai-hoc-2022#0
+       # Học phí Đại học 2022 *Ngày đăng: 29-06-2022* Đối với khoá nhập học năm 2022 (K...
+    2. score=+0.668        doc_id=nghi-dinh-55-nhan-hoc-bong  id=nghi-dinh-55-nhan-hoc-bong#8
+       ### 7 chương trình tài năng nhận mức 5.500.000 đồng/tháng Từ năm 2026, 7 chương ...
+    3. score=+0.644        doc_id=nghi-dinh-55-nhan-hoc-bong  id=nghi-dinh-55-nhan-hoc-bong#10
+       ### Chương trình vi mạch bán dẫn nhận mức 4.200.000 đồng/tháng Hiện có 2 chương ...
+    signature CÓ trong ngữ cảnh top-3: 'khoảng 60 triệu đồng/năm học'
+
+──────────────────────────────────────────────────────────────────────────────
+Q2 (nộp hồ sơ ở đâu — CẦN FILTER (nhập nhằng đối tượng))
+  Q: Hồ sơ học bổng hỗ trợ học tập nộp trực tuyến hay nộp trực tiếp?
+  gold doc_id: tieu-chi-xet-hoc-bong-ho-tro-hoc-tap
+
+  filter={'audience': 'student'}
+    1. score=+0.702 ✔ gold doc_id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap  id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap#1
+       # Tiêu chí xét học bổng hỗ trợ học tập Bên cạnh Học bổng tài năng dành cho những...
+    2. score=+0.690        doc_id=ho-tro-tai-chinh-tan-sinh-vien  id=ho-tro-tai-chinh-tan-sinh-vien#0
+       # Hỗ trợ tài chính cho sinh viên *Ngày đăng: 28-02-2025*  Sau khi trở thành sinh...
+    3. score=+0.685        doc_id=ho-tro-tai-chinh-tan-sinh-vien  id=ho-tro-tai-chinh-tan-sinh-vien#8
+       ## Học bổng gắn kết quê hương Đối tượng:  - Sinh viên có CPA ≥ 2.5; có đồ án/khó...
+    signature KHÔNG trong ngữ cảnh top-3: 'Phòng 202, Nhà D7'
+
+──────────────────────────────────────────────────────────────────────────────
+Q3 (hỏi quy trình)
+  Q: Học sinh lớp 12 muốn đăng ký học bổng hỗ trợ học tập thì đăng ký bằng cách nào?
+  gold doc_id: mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt
+
+  filter=(không lọc)
+    1. score=+0.727 ✔ gold doc_id=mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt  id=mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt#4
+       # Mở đăng ký học bổng hỗ trợ học tập cho học sinh năm cuối THPT - Các giấy tờ mi...
+    2. score=+0.718        doc_id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap  id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap#1
+       # Tiêu chí xét học bổng hỗ trợ học tập Bên cạnh Học bổng tài năng dành cho những...
+    3. score=+0.715        doc_id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap  id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap#7
+       ## Hồ sơ đăng ký Hồ sơ đăng ký học bổng hỗ trợ học tập gồm: - Đơn đăng ký xét cấ...
+    signature KHÔNG trong ngữ cảnh top-3: 'Đăng ký online tại địa chỉ https://ts.hust.edu.vn/dang-ky-hoc-bong'
+
+──────────────────────────────────────────────────────────────────────────────
+Q4 (liệt kê)
+  Q: Hồ sơ đăng ký học bổng hỗ trợ học tập (bản cho sinh viên) gồm những giấy tờ gì?
+  gold doc_id: tieu-chi-xet-hoc-bong-ho-tro-hoc-tap
+
+  filter={'audience': 'student'}
+    1. score=+0.774 ✔ gold doc_id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap  id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap#7
+       ## Hồ sơ đăng ký Hồ sơ đăng ký học bổng hỗ trợ học tập gồm: - Đơn đăng ký xét cấ...
+    2. score=+0.683 ✔ gold doc_id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap  id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap#1
+       # Tiêu chí xét học bổng hỗ trợ học tập Bên cạnh Học bổng tài năng dành cho những...
+    3. score=+0.670        doc_id=ho-tro-tai-chinh-tan-sinh-vien  id=ho-tro-tai-chinh-tan-sinh-vien#0
+       # Hỗ trợ tài chính cho sinh viên *Ngày đăng: 28-02-2025*  Sau khi trở thành sinh...
+    signature CÓ trong ngữ cảnh top-3: 'Bản sao học bạ THPT (có xác nhận của trường THPT)'
+
+──────────────────────────────────────────────────────────────────────────────
+Q5 (tự chọn — số liệu)
+  Q: Sinh viên chương trình đào tạo tài năng nhận học bổng Chính phủ mức bao nhiêu mỗi tháng theo Nghị định 179?
+  gold doc_id: nghi-dinh-55-nhan-hoc-bong
+
+  filter=(không lọc)
+    1. score=+0.771 ✔ gold doc_id=nghi-dinh-55-nhan-hoc-bong  id=nghi-dinh-55-nhan-hoc-bong#6
+       ## Tiêu chuẩn và điều kiện để được xét cấp học bổng Để bảo đảm việc nhận học bổn...
+    2. score=+0.771 ✔ gold doc_id=nghi-dinh-55-nhan-hoc-bong  id=nghi-dinh-55-nhan-hoc-bong#0
+       # Chi tiết 55 Chương trình đào tạo tại Bách khoa Hà Nội nhận Học bổng Chính phủ ...
+    3. score=+0.725 ✔ gold doc_id=nghi-dinh-55-nhan-hoc-bong  id=nghi-dinh-55-nhan-hoc-bong#1
+       # Chi tiết 55 Chương trình đào tạo tại Bách khoa Hà Nội nhận Học bổng Chính phủ ...
+    signature KHÔNG trong ngữ cảnh top-3: 'Mức 5.500.000 đồng/tháng'
+
+══════════════════════════════════════════════════════════════════════════════
+A/B — câu cần filter (Q2): Hồ sơ học bổng hỗ trợ học tập nộp trực tuyến hay nộp trực tiếp?
+
+  filter=(không lọc) [A: không filter]
+    1. score=+0.708        doc_id=mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt  id=mo-dang-ky-hoc-bong-ho-tro-hoc-tap-cho-hoc-sinh-nam-cuoi-thpt#1
+       # Mở đăng ký học bổng hỗ trợ học tập cho học sinh năm cuối THPT Phần lớn quỹ này...
+    2. score=+0.702 ✔ gold doc_id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap  id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap#1
+       # Tiêu chí xét học bổng hỗ trợ học tập Bên cạnh Học bổng tài năng dành cho những...
+    3. score=+0.690        doc_id=ho-tro-tai-chinh-tan-sinh-vien  id=ho-tro-tai-chinh-tan-sinh-vien#0
+       # Hỗ trợ tài chính cho sinh viên *Ngày đăng: 28-02-2025*  Sau khi trở thành sinh...
+    signature KHÔNG trong ngữ cảnh top-3: 'Phòng 202, Nhà D7'
+
+  filter={'audience': 'student'} [B: có filter]
+    1. score=+0.702 ✔ gold doc_id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap  id=tieu-chi-xet-hoc-bong-ho-tro-hoc-tap#1
+       # Tiêu chí xét học bổng hỗ trợ học tập Bên cạnh Học bổng tài năng dành cho những...
+    2. score=+0.690        doc_id=ho-tro-tai-chinh-tan-sinh-vien  id=ho-tro-tai-chinh-tan-sinh-vien#0
+       # Hỗ trợ tài chính cho sinh viên *Ngày đăng: 28-02-2025*  Sau khi trở thành sinh...
+    3. score=+0.685        doc_id=ho-tro-tai-chinh-tan-sinh-vien  id=ho-tro-tai-chinh-tan-sinh-vien#8
+       ## Học bổng gắn kết quê hương Đối tượng:  - Sinh viên có CPA ≥ 2.5; có đồ án/khó...
+    signature KHÔNG trong ngữ cảnh top-3: 'Phòng 202, Nhà D7'
